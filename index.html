@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lofranco Labs</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      background: #0B0D10;
+      color: #E6E8EC;
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+    main { max-width: 760px; margin: 0 auto; padding: 64px 24px; }
+    h1 { font-size: 2.4rem; margin: 0.2em 0 0.4em; letter-spacing: -0.03em; color: #FFFFFF; }
+    h2 { font-size: 1.3rem; margin-top: 2.2em; color: #A4B3C6; border-bottom: 1px solid #1F242D; padding-bottom: 8px; }
+    p.lead { font-size: 1.25rem; color: #9AA5B5; margin-bottom: 2em; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 20px; margin-top: 1.5em; }
+    @media (min-width: 600px) { .grid { grid-template-columns: 1fr 1fr; } }
+    .card {
+      background: #141820;
+      border: 1px solid #232936;
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card h3 { margin: 0 0 8px; font-size: 1.2rem; color: #FFFFFF; }
+    .card p { margin: 0 0 16px; color: #9AA5B5; font-size: 0.95rem; }
+    .card a { color: #58A6FF; text-decoration: none; font-weight: 500; }
+    .card a:hover { text-decoration: underline; }
+    nav.footer {
+      margin-top: 4em;
+      padding-top: 24px;
+      border-top: 1px solid #1F242D;
+      display: flex;
+      gap: 20px;
+      font-size: 0.95rem;
+    }
+    nav.footer a { color: #8B949E; text-decoration: none; }
+    nav.footer a:hover { color: #58A6FF; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Lofranco Labs</h1>
+    <p class="lead">Independent software studio crafting focused mobile and developer tools.</p>
+
+    <h2>Apps</h2>
+    <div class="grid">
+      <div class="card">
+        <div>
+          <h3>Gym Tracker</h3>
+          <p>Offline-first workout tracker for sets, reps, weight, and long-term training progress.</p>
+        </div>
+        <div>
+          <a href="https://play.google.com/store/apps/details?id=dev.lofrancolabs.gymtracker">Google Play →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <h3>WordForge</h3>
+          <p>Vocabulary trainer designed to master new words through spaced repetition and quizzes.</p>
+        </div>
+        <div>
+          <a href="https://play.google.com/store/apps/details?id=dev.lofrancolabs.wordforge">Google Play →</a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="footer">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="https://github.com/francescolofranco-dev">GitHub</a>
+      <a href="mailto:lofranco.francesco@gmail.com">Contact</a>
+    </nav>
+  </main>
+</body>
+</html>
